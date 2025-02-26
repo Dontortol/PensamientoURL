@@ -28,8 +28,8 @@ if n5 > n4 > n3 > n2 > n1:
     resultado = n5,n4,n3,n2,n1
     print(resultado)
     
-if n1 < n2 < n3 < n4 <n5:
-    resultados=n1,n2,n3,n4,n5
+if n1 < n2 < n3 > n4 > n5:
+    resultados=n1,n2,n5,n4,n3
     print (resultados )
     
 if n5 < n4 < n3 < n2 <n1:
@@ -47,5 +47,14 @@ if n3 < n2 < n1 < n5 <n4:
 if n2 < n1 < n3 < n4 <n5:
     resultados=n2,n1,n3,n4,n5
     print (resultados )
+    
+if n1 < n2 < n3 < n4 > n5:
+    resultados=n1,n2,n3,n5,n4
+    print (resultados )
+
+if n1 < n2 < n3 < n4 < n5:
+    resultados=n1,n2,n3,n4,n5
+    print (resultados )
+
 
     
